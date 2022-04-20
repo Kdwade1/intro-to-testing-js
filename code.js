@@ -17,5 +17,8 @@ function sayHello(x){
     return "Hello, "+ x + "!"
 
 }
+function isFive(x){
+    return x === 5
 
+}
 
