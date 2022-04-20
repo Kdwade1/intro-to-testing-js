@@ -62,9 +62,14 @@ describe('isFive',function (){
         expect(typeof isFive()).toBe("boolean")
     })
     it('should return true when you enter the number 5',function(){
-        expect(isFive(true)).not.toBe(5)
+        expect(isFive(5)).toBe(true)
     })
     it ('should return false if you pass in the string "5"',function(){
-        expect(isFive(false)).not.toBe("5")
+        expect(isFive("5")).toBe(false)
     })
 })
+// describe('isEven', function()[
+//     it('should be described as a function',function(){
+//         expect
+//     })
+//     ])
