@@ -1,7 +1,8 @@
 // helloWorld function 
 function helloWorld() {
-    return "Hello, World!";
-}
+        return  "Hello, World!"
+    }
+
 
 function plusOne(num){
 if (typeof num === "number"){
@@ -10,7 +11,10 @@ if (typeof num === "number"){
 return 0
 }
 function sayHello(x){
-    return "Hello, " + x +"!";
+    if(x=== false){
+        return "Hello, World!"
+    }
+    return "Hello, "+ x + "!"
 
 }
 

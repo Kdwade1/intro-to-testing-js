@@ -49,5 +49,8 @@ describe('sayHello',function(){
     it('Should say "Hello, Pat!" when asserted into the function',function(){
         expect(sayHello("Pat")).toBe("Hello, Pat!")
     })
+    it('should be true',function (){
+        expect(sayHello(false)).toBe("Hello, World!")
+    })
 
 })
